@@ -331,7 +331,7 @@ text-decoration: underline;
   border:0px solid;
   display:flex;
   justify-content: center;
-  background:url(../image1/banner-img.jpg) no-repeat;
+  background:url(./image1/banner-img.jpg) no-repeat;
   background-position: center;
   background-size: contain;
   padding-top:17rem;
