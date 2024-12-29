@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ApnaGarden</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="image1\favicon.PNG" type="image/x-icon" />
+    <!--  w3 school For a mobile view -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <!-- Header section -->
+    <header class="header">
+      <a href="#" class="logo"
+        ><i class="fa fa-shopping-basket"></i>ApnaGarden</a
+      >
+
+      <nav class="navbar">
+        <a href="#home">Home </a>
+        <a href="#feature">Feature</a>
+        <a href="#products">Products</a>
+        <a href="#categories">Categories</a>
+        <a href="#review">Review</a>
+        <a href="#blogs">BLogs</a>
+      </nav>
+      <div class="icons">
+        <div class="fa fa-bars" id="menu-btn"></div>
+        <div class="fa fa-search" id="search-btn"></div>
+        <div class="fa fa-shopping-cart" id="cart-btn"></div>
+        <div class="fa fa-user" id="login-btn"></div>
+      </div>
+
+      <div class="type">
+        <div class="fa-solid fa-plus" id="sell-click">Sell</div>
+      </div>
+
+      <form class="search-form">
+        <input type="search" id="search-box" placeholder="Search Here..." />
+        <label for="search-box" class="fa fa-search"></label>
+      </form>
+      <div class="shoppping-cart">
+        <div class="box">
+          <img src=".\image1\cart-img-1.png" />
+          <i class="fa fa-trash"></i>
+          <div class="content">
+            <h3>Watermelon</h3>
+            <span class="price">$5.99</span>
+            <span class="quantity">qty : 1</span>
+          </div>
+        </div>
+        <div class="box">
+          <img src=".\image1\cart-img-2.png" />
+          <i class="fa fa-trash"></i>
+          <div class="content">
+            <h3>Onion</h3>
+            <span class="price">$5.99</span>
+            <span class="quantity">qty : 1</span>
+          </div>
+        </div>
+        <div class="box">
+          <img src=".\image1\cart-img-3.png" />
+          <i class="fa fa-trash"></i>
+          <div class="content">
+            <h3>Chicken</h3>
+            <span class="price">$5.99</span>
+            <span class="quantity">qty : 1</span>
+          </div>
+        </div>
+        <div class="total">total : $18.97/-</div>
+        <a href="#" class="btn">Checkout</a>
+      </div>
+      <form action="#" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="Your email" class="box" />
+        <input type="password" placeholder="Your password" class="box" />
+
+        <p>Forget your Password <a href="#">Click Here</a></p>
+        <p>Don't Have An Account <a href="#">Create Now</a></p>
+        <input type="submit" name="login Now" class="btn" />
+      </form>
+
+      <form action="#" class="sell-form">
+        <h3>Product Detail</h3>
+
+        <div class="form-group">
+          <input
+            type="text"
+            id="person-box"
+            placeholder="Owner name"
+            class="box"
+          />
+          <label for="person-box" class="fa-solid fa-person"></label>
+        </div>
+
+        <div class="form-group">
+          <input
+            type="text"
+            id="location-box"
+            placeholder="Your Location"
+            class="box"
+          />
+          <label for="location-box" class="fa-solid fa-location-dot"></label>
+        </div>
+
+        <div class="form-group">
+          <input type="date" id="date-box" class="box" />
+        </div>
+
+        <div class="form-group">
+          <input
+            type="Product"
+            id="date-box"
+            placeholder="Product-Type"
+            class="box"
+          />
+        </div>
+        <p>Look at the product before adding <a href="#">Update</a></p>
+        <input type="submit" value="+Add Your Product" class="btn" />
+      </form>
+    </header>
+    <!-- banner section -->
+    <section class="home" id="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide content">
+            <h3>Fresh And <span>Organic </span>Product For You</h3>
+            <p>
+              Ensures you receive the highest quality, nutrient-rich foods
+              straight from nature. Enjoy the benefits of healthier, more
+              flavorful choices every day.
+            </p>
+            <a href="#" class="btn">Shop Now</a>
+          </div>
+
+          <div class="swiper-slide content">
+            <h3>
+              <span>Hurry Up</span> Get a better opportunities for a specia Day
+            </h3>
+            <p>
+              Ensures you receive the highest quality, nutrient-rich foods
+              straight from nature. Enjoy the benefits of healthier, more
+              flavorful choices every day.Our selection includes a variety of
+              fruits sourced directly from nature!!
+            </p>
+            <a href="#" class="btn">Shop Now</a>
+          </div>
+
+          <div class="swiper-slide content">
+            <h3>
+              Fresh and Nutritious Fruits at <span>Up to 40% Discount </span>– A
+              Special Offer You Can't Miss!
+            </h3>
+            <p>
+              We're excited to announce our special fruit discount event, where
+              you can get up to 40% off on a wide variety of delicious fruits.
+              This is the perfect opportunity to stock up on your favorite
+              fruits and indulge in the natural goodness they offer..
+            </p>
+            <a href="#" class="btn">Get Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- our feature section -->
+    <section class="feature" id="feature">
+      <h1 class="heading">Our <span> Features</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="image1\feature-img-1.png" />
+          <h3>Fresh and Organic</h3>
+          <p>
+            Embrace fresh and organic, where nature nourishes your body and soul
+            with vibrant, wholesome goodness!
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="box">
+          <img src="image1\feature-img-2.png" />
+          <h3>Free Delivery</h3>
+          <p>
+            Enjoy the convenience of free delivery for fresh vegetables and
+            fruits, ensuring healthy, high-quality produce right to your
+            doorstep.!
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="box">
+          <img src="image1\feature-img-3.png" />
+          <h3>Easy Payments</h3>
+          <p>
+            Enjoy easy payments with Apna Garden: pay online via app or choose
+            cash on delivery for fresh, convenient produce...
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+    <!-- product section -->
+    <section class="products" id="products">
+      <h1 class="heading">Our <span>Products</span></h1>
+      <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="image1\product-1.png" />
+            <h1>Fresh orange</h1>
+            <div class="price">$4.99/- 6.50/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half"></i>
+              <i class="fas fa-star-half"></i>
+            </div>
+            <a href="" class="btn">Add to cart</a>
+          </div>
+          <div class="swiper-slide box">
+            <img src="image1\product-2.png" />
+            <h1>White Onion</h1>
+            <div class="price">$12.99/- 16.50/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half"></i>
+              <i class="fas fa-star-half"></i>
+              <i class="fas fa-star-half"></i>
+            </div>
+            <a href="" class="btn">Add to cart</a>
+          </div>
+          <div class="swiper-slide box">
+            <img src="Fruits\p7.png" />
+            <h1>Green Coriander</h1>
+            <div class="price">$0.99/- 2.50/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <a href="" class="btn">Add to cart</a>
+          </div>
+          <div class="swiper-slide box">
+            <img src="image1\Rice.jpg" />
+            <h1>Wheat and Rice</h1>
+            <div class="price">$20.99/- 25.50/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half"></i>
+            </div>
+            <a href="" class="btn">Add to cart</a>
+          </div>
+          <div class="swiper-slide box">
+            <img src="Fruits\p9.png" />
+            <h1>Fresh Strawberry</h1>
+            <div class="price">$12.99/- 13.50/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <a href="" class="btn">Add to cart</a>
+          </div>
+          <div class="swiper-slide box">
+            <img src="image1\product-4.png" />
+            <h1>Green leaf-cabbage</h1>
+            <div class="price">$3.99/- 4.00/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <a href="" class="btn">Add to cart</a>
+          </div>
+          <div class="swiper-slide box">
+            <img src="image1\product-5.png" />
+            <h1>Fresh Potatoes</h1>
+            <div class="price">$4.99/- 6.50/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half"></i>
+            </div>
+            <a href="" class="btn">Add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="Fruits\p6.jpg" />
+            <h1>Fresh cauliflower</h1>
+            <div class="price">$4.99/- 6.50/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <a href="" class="btn">Add to cart</a>
+          </div>
+          <div class="swiper-slide box">
+            <img src="image1\product-6.png" />
+            <h1>Fresh PeaNut</h1>
+            <div class="price">$5.99/- 6.50/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half"></i>
+            </div>
+            <a href="" class="btn">Add to cart</a>
+          </div>
+          <div class="swiper-slide box">
+            <img src="image1\product-7.png" />
+            <h1>Red Carrot</h1>
+            <div class="price">$1.80/- 2.50/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <a href="" class="btn">Add to cart</a>
+          </div>
+          <div class="swiper-slide box">
+            <img src="image1\product-8.png" />
+            <h1>Green eamon</h1>
+            <div class="price">$8.99/- 9.50/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half"></i>
+              <i class="fas fa-star-half"></i>
+            </div>
+            <a href="" class="btn">Add to cart</a>
+          </div>
+          <div class="swiper-slide box">
+            <img src="Fruits\p2.png" />
+            <h1>Fresh Broccoli</h1>
+            <div class="price">$12.99/- 13.50/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <a href="" class="btn">Add to cart</a>
+          </div>
+          <div class="swiper-slide box">
+            <img src="Fruits\p4.png" />
+            <h1>WaterMelon</h1>
+            <div class="price">$8.99/- 13.50/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half"></i>
+            </div>
+            <a href="" class="btn">Add to cart</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- our Categories section -->
+    <section class="categories" id="categories">
+      <h1 class="heading">Product<span>Categories</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="image1\cat-1.png" />
+          <h3>Vegetables</h3>
+          <p>Upto 45% Off</p>
+          <a href="#" class="btn">Shop Now</a>
+        </div>
+        <div class="box">
+          <img src="image1\cat-2.png" />
+          <h3>Fresh Fruits</h3>
+          <p>Upto 20% Off</p>
+          <a href="#" class="btn">Shop Now</a>
+        </div>
+        <div class="box">
+          <img src="image1\cat-3.png" />
+          <h3>Dairy Products</h3>
+          <p>Upto 5% Off</p>
+          <a href="#" class="btn">Shop Now</a>
+        </div>
+        <div class="box">
+          <img src="image1\wheat.webp" />
+          <h3>Fresh Meat</h3>
+          <p>Upto 30% Off</p>
+          <a href="#" class="btn">Shop Now</a>
+        </div>
+      </div>
+    </section>
+    <!-- font element section -->
+    <section class="section-policy">
+      <div class="container grid grid-four--cols">
+        <div class="div-policy">
+          <div class="icons">
+            <i class="fa-solid fa-truck-fast"></i>
+          </div>
+          <div class="div-policy-text">
+            <p>worldwide shipping</p>
+            <p>Order above $50</p>
+          </div>
+        </div>
+        <div class="div-policy">
+          <div class="icons">
+            <i class="fa-solid fa-restroom"></i>
+          </div>
+          <div class="div-policy-text">
+            <p>Flexible 30-Day Rental Period</p>
+            <p>"Guaranteed mutual trust for each other</p>
+          </div>
+        </div>
+
+        <div class="div-policy">
+          <div class="icons">
+            <i class="fa-solid fa-hand-holding-dollar"></i>
+          </div>
+          <div class="div-policy-text">
+            <p>Money back guarantee</p>
+            <p>Guarantee with in a Day</p>
+          </div>
+        </div>
+        <div class="div-policy">
+          <div class="icons">
+            <i class="fa-solid fa-headset"></i>
+          </div>
+          <div class="div-policy-text">
+            <p>Easy Online Support</p>
+            <p>24/7 Any time support</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Review Section -->
+    <section class="review" id="review">
+      <h1 class="heading">Customer's<span>Review</span></h1>
+      <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="image1\pic-1.png" />
+            <p>
+              Iron Man is the superhero persona of Anthony Edward "Tony" Stark,
+              a businessman and engineer who runs the weapons manufacturing
+              company Stark Industries
+            </p>
+            <h3>John Deo</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half"></i>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <img src="image1\pic-2.png" />
+            <p>
+              Mayte Michelle Rodríguez is an American actress. She began her
+              career in 2000, playing a troubled boxer in the independent sports
+              drama film Girlfight,
+            </p>
+            <h3>michelle rodriguez</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half"></i>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <img src="image1\SOURAV PHOTO.jpeg" />
+            <p>
+              Sourav Kumar is a driven individual known for his expertise in
+              technology and innovation. With a strong background in computer
+              science,He holds a degree in Engineering
+            </p>
+            <h3>SOURAV KUMAR</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <img src="image1\pic-3.png" />
+            <p>
+              Mark Sinclair (born July 18, 1967), known professionally as Vin
+              Diesel, is an American actor and film producer. One of the world's
+              highest-grossing actors.
+            </p>
+            <h3>Vin Diesel</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half"></i>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <img src="image1\pic-4.png" />
+            <p>
+              Neha Kakkar, a judge on Indian Idol, slammed his ex-boyfriend
+              Himansh Kohli when he claimed that he was portrayed negatively.
+              The duo had an ugly breakup.
+            </p>
+            <h3>Neha Kakkar</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half"></i>
+              <i class="fas fa-star-half"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Our blog -->
+    <section class="blogs" id="blogs">
+      <h1 class="heading">Our <span>Blogs</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="image1\blog-1.jpg" />
+          <div class="content">
+            <div class="icons">
+              <a href="#"><i class="fa fa-user"></i> By User</a>
+              <a href="#"><i class="fa fa-calendar"></i> 1st July, 2024</a>
+            </div>
+            <h3>Fresh And Organic Vegetables And Fruits</h3>
+            <p>
+              Organic foods aren't completely chemical-free, but they have
+              significantly lower pesticide residues than conventionally
+              produced foods.
+            </p>
+            <a href="#" class="btn">Read more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="image1\blog-2.jpg" />
+          <div class="content">
+            <div class="icons">
+              <a href="#"><i class="fa fa-user"></i> By User</a>
+              <a href="#"><i class="fa fa-calendar"></i> 28th June, 2024</a>
+            </div>
+            <h3>Fresh, nutritious vegetables enhance healthy living.</h3>
+            <p>
+              Consuming a variety of colorful vegetables can reduce the risk of
+              chronic diseases, promote heart health and nourish us.
+            </p>
+            <a href="#" class="btn">Read more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="image1\blog-3.jpg" />
+          <div class="content">
+            <div class="icons">
+              <a href="#"><i class="fa fa-user"></i> By User</a>
+              <a href="#"><i class="fa fa-calendar"></i> 1st July, 2024</a>
+            </div>
+            <h3>Savor delicious meals, enrich your day joyfully.</h3>
+            <p>
+              Each bite carries the potential to enrich not just the body but
+              also the soul. Whether it's the rich flavors of a hearty stew,
+              food has a unique ability to uplift.
+            </p>
+            <a href="#" class="btn">Read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- middle of the section -->
+
+    <section class="middle">
+      <div class="container">
+        <div class="left">
+          <h1>Sales <span>Your's Products</span></h1>
+          <p>
+            Fruits are a vital part of a balanced diet, offering a natural
+            sweetness that can satisfy your cravings without the added sugars
+            found in processed snacks. They're perfect for smoothies, salads, or
+            as a convenient snack on the go. By taking advantage of our
+            discount, you're not just saving money – you're investing in a
+            healthier lifestyle.
+          </p>
+          <h1 class="heading"><a href="#" class="btn">Sell</a></h1>
+        </div>
+        <div class="right">
+          <img src="Fruits/b1.png" alt="Fruits" />
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>ApnaGarden<i class="fa fa-shopping-basket"></i></h3>
+          <p>
+            Feel Free To Follow Us On Our Socia Media Handlers All The Links Are
+            Given Below.
+          </p>
+          <div class="share">
+            <a href="#" class="fa-brands fa-square-facebook"></a>
+            <a href="#" class="fa-brands fa-square-twitter"></a>
+            <a href="#" class="fa-brands fa-square-instagram"></a>
+            <a href="#" class="fa-brands fa-linkedin"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3>Contact Info</h3>
+          <a href="#" class="links"
+            ><i class="fa fa-phone"></i> +123-456-7890</a
+          >
+          <a href="#" class="links"
+            ><i class="fa fa-phone"></i> +91 835-456-7890</a
+          >
+          <a href="#" class="links"
+            ><i class="fa fa-envelope"></i> info@gmail.com</a
+          >
+          <a href="#" class="links"
+            ><i class="fa fa-map-marker"></i> Pune,India-400104
+          </a>
+        </div>
+
+        <div class="box">
+          <h3>Ouick Links</h3>
+          <a href="#" class="links"><i class="fa fa-arrow-right"></i> Home</a>
+          <a href="#" class="links"
+            ><i class="fa fa-arrow-right"></i> Features</a
+          >
+          <a href="#" class="links"
+            ><i class="fa fa-arrow-right"></i> Products</a
+          >
+          <a href="#" class="links"
+            ><i class="fa fa-arrow-right"></i> Categories</a
+          >
+          <a href="#" class="links"><i class="fa fa-arrow-right"></i> Review</a>
+          <a href="#" class="links"><i class="fa fa-arrow-right"></i> Blogs</a>
+        </div>
+
+        <div class="box">
+          <h3>Newsletter</h3>
+          <p>Subscribe For Latest Updates</p>
+          <input type="email" placeholder="Your Email" class="email" />
+          <input type="submit" value="Subscribes" class="btn" />
+          <img src="image1\payment.png" class="payment-img" />
+        </div>
+      </div>
+
+      <div class="credit">
+        Created By <span>SOURAV KUMAR</span> | All Rights Reserved
+        <i class="fa-solid fa-globe"></i>
+      </div>
+    </section>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
